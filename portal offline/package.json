@@ -10,8 +10,8 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "electron:dev": "vite build && electron .",
-    "electron:pack:win": "vite build && electron-packager . \"MoE-Fees-Approval\" --platform=win32 --arch=x64 --out=electron-release --overwrite --ignore=\"^/src\" --ignore=\"^/public\" --ignore=\"^/supabase\" --ignore=\"^/electron-release\""
+    "electron:dev": "electron .",
+    "electron:pack:win": "electron-packager . \"MoE-Fees-Approval\" --platform=win32 --arch=x64 --out=electron-release 
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
